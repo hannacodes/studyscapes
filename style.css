@@ -49,14 +49,31 @@ body{
     max-height: 100vh;
     margin: auto;
 }
+
+.container{
+    padding-top: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 .audioandimage{
+    display:flex;
     max-width: 80%;
-    margin-left: 10%;
 }
 .audiobox {
-    float:left;
+    
+    flex:35%;
     max-width: 35%;
-    max-height: 100vh;
+    
+}
+
+.audiobox audio{
+    padding-top: 2%;
+}
+.imagebox{
+    flex:35%;
+    max-width: 35%;
+    max-height: 60%;
 }
 .navbar {
     margin-top: 2vh;
