@@ -68,10 +68,8 @@ body{
     max-width: 80%;
 }
 .audiobox {
-    
     flex:35%;
     max-width: 35%;
-    
 }
 
 .audiobox audio{
@@ -106,4 +104,12 @@ body{
     font-family: "Butler";
     padding-left: 10px;
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .imagebox, .audiobox{
+        flex: 100%;
+    
+    }
+
 }
