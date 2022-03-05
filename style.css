@@ -1,24 +1,76 @@
+/* color list: 
+#D1D4AB - yellow green
+#C7D8C9 - sage green
+#ABCBDD - light blue
+#98AF93 - dark camo green 
+#5F7189 - dark blue
+#E6D0B6 - light orange 
+#E9EBCF - background color
+*/
+
+@font-face {
+    font-family: "Jost" ;
+    src: url("fonts/Jost-VariableFont_wght.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("fonts/Jost-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Butler";
+    src: url(fonts/Butler/Butler_ExtraBold.otf);
+}
+
+*{
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+
 body{
     display: block;
     margin-left: 2%;
-    background-color: antiquewhite;
+    background-color: #E9EBCF;
 }
 
-.map {
-        display: grid;
-        height: 100%;
-    }
+.centerbox {
+    display: grid;
+    height: 100%;
+}
 .center-fit {
     max-width: 75%;
     max-height: 100vh;
     margin: auto;
 }
+.audioandimage{
+    max-width: 80%;
+    margin-left: 10%;
+}
+.audiobox {
+    float:left;
+    max-width: 35%;
+    max-height: 100vh;
+}
 .navbar {
     margin-top: 2vh;
+    padding-bottom: 20px;
 }
 .navbar li{
     display:inline;
     float:left; 
     display: block;
     padding: 8px;
+}
+
+.logo{
+    font-family: "Butler";
+    padding-left: 10px;
+    font-size: 25px;
 }
