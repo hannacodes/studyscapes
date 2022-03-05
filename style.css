@@ -3,7 +3,7 @@
 #C7D8C9 - sage green
 #ABCBDD - light blue
 #98AF93 - dark camo green 
-#5F7189 - dark blue
+#263b57 - dark blue
 #E6D0B6 - light orange 
 #E9EBCF - background color
 */
@@ -51,11 +51,18 @@ body{
 }
 
 .container{
-    padding-top: 5%;
     display:flex;
     align-items: center;
     justify-content: center;
 }
+
+.toptext{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .audioandimage{
     display:flex;
     max-width: 80%;
@@ -84,6 +91,15 @@ body{
     float:left; 
     display: block;
     padding: 8px;
+}
+
+.navbar a{
+    color: #2b4c77;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:#98AF93;
 }
 
 .logo{
