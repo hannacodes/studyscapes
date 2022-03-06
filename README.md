@@ -1,5 +1,6 @@
 # StudyScapes
 BrickHack 2022 Project
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hannacodes/studyscapes)
 
 ## Features
