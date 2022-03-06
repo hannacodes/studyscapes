@@ -57,6 +57,10 @@ body{
     justify-content: center;
 }
 
+img{
+    height: auto;
+}
+
 .toptext{
     padding-top: 50px;
     display: flex;
@@ -97,6 +101,8 @@ body{
 .text{
     display: block;
     text-align: center;
+    margin-top: 1vw;
+    font-size: 1.5em;
 }
 
 .navbar {
@@ -191,8 +197,7 @@ input[type = "range"]::-webkit-slider-thumb {
     
     .audiobox{
         max-width: 80vw;
-        align-items: center;
-        text-align: center;
+        margin-left:5vw;
     }
 
     .audiobox p{
@@ -200,8 +205,7 @@ input[type = "range"]::-webkit-slider-thumb {
     }
     
     input[type = "range"] {
-        margin-left: 5vw;
-        width: 90%;
+       display:none;
     }
     
     
