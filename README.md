@@ -1,7 +1,7 @@
 # StudyScapes
-BrickHack 2022 Project
+BrickHack 2022 Project - Visit the site [here!](http://studyscapes.tech)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hannacodes/studyscapes)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hannacodes/studyscapes) 
 
 ## Features
 This website has five pages, each with 3-4 sound-tracks. On desktop, the volume of each track is fully customizable. Each track loops infinitely to provide a constant source of ambient sound to the user. 
