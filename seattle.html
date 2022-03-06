@@ -29,28 +29,37 @@
 <div class = "audioandimage">
     <div class = "audiobox">
         <br> 
-        Rainy Weather 
-        <br>
-        <audio loop controls >
-            <source src = 'assets/sounds/seattle/lightrain.wav'>
+        <p>Rainy Weather
+        <button id = "play1" class = "button" onclick = "playSound(1)">&#9658</button>
+        </p>
+   
+        <audio loop id = "1" volume = "0.0">
+            <source src = "assets/sounds/seattle/lightrain.wav">
             Your device cannot support the audio file. 
         </audio>
         <br>
+        <p>
         Cups Clinking
+        <button id = "play2" class = "button" onclick = "playSound(2)">&#9658</button>
+        </p>
         <br>
-        <audio loop controls>
+        <audio id = "2" loop>
             <source src = 'assets/sounds/seattle/cafe.mp3'>
         </audio>
-        <br>
-        Conversation
-        <br>
-        <audio loop controls>
+        <p>
+            Conversation
+            <button id = "play3" class = "button" onclick = "playSound(3)">&#9658</button>
+
+        </p>
+        <audio loop id = "3">
             <source src = 'assets/sounds/seattle/talking.mp3'>
         </audio>
     </div>
+    <div class = "givemespace"></div>
     <div class ="imagebox">
         <img src = "assets/images/Coffee shop.gif">
     </div>
 </div>
 </div>
+<script src = "script.js"></script>
 </body>
