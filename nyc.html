@@ -33,7 +33,9 @@
             
             <button id = "play1" class = "button" onclick = "playSound(1)">&#9658</button>
             Traffic
+            <span class = "volumeslider"><img class = "volume" src = "assets/volume.svg", width="16px">
             <input type="range" id="volume1" onchange = "changeVolume(1)"> 
+        </span>
         </p>
         <audio loop id = "1">
             <source src = 'assets/sounds/nyc/traffic.mp3'>
@@ -42,8 +44,10 @@
            
             <button id = "play2" class = "button" onclick = "playSound(2)">&#9658</button>
              Tourist Chatter
+             <span class = "volumeslider"><img class = "volume" src = "assets/volume.svg", width="16px">
              <input type="range" id="volume2" onchange = "changeVolume(2)">
-        </p>
+            </span>
+            </p>
         <audio loop id = "2">
             <source src = 'assets/sounds/nyc/talking.mp3'>
         </audio>
@@ -51,7 +55,9 @@
             
             <button id = "play3" class = "button" onclick = "playSound(3)">&#9658</button>
             Wind
+            <span class = "volumeslider"><img class = "volume" src = "assets/volume.svg", width="16px">
             <input type="range" id="volume3" onchange = "changeVolume(3)">
+            </span>
         </p>
         <audio loop id = "3">
             <source src = 'assets/sounds/nyc/wind.mp3'>

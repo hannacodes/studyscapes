@@ -32,7 +32,9 @@
         <p>
         <button id = "play1" class = "button" onclick = "playSound(1)">&#9658</button>
         Rainy Weather
-        <input type="range" id="volume1" onchange = "changeVolume(1)">
+        <span class = "volumeslider"><img class = "volume" src = "assets/volume.svg", width="16px">
+            <input type="range" id="volume1" onchange = "changeVolume(1)">
+        </span>
         </p>
         <audio loop id = "1" volume = "0.0">
             <source src = "assets/sounds/seattle/lightrain.wav">
@@ -42,7 +44,9 @@
         
         <button id = "play2" class = "button" onclick = "playSound(2)">&#9658</button>
         Brewing Coffee
+        <span class = "volumeslider"><img class = "volume" src = "assets/volume.svg", width="16px">
         <input type="range" id="volume2" onchange = "changeVolume(2)">
+        </span>
         </p>
         <audio id = "2" loop>
             <source src = 'assets/sounds/seattle/cafe.mp3'>
@@ -51,7 +55,9 @@
             
             <button id = "play3" class = "button" onclick = "playSound(3)">&#9658</button>
             Conversation
+            <span class = "volumeslider"><img class = "volume" src = "assets/volume.svg", width="16px">
             <input type="range" id="volume3" onchange = "changeVolume(3)">
+            </span>
         </p>
         <audio loop id = "3">
             <source src = 'assets/sounds/seattle/talking.mp3'>
