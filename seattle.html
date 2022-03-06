@@ -31,8 +31,8 @@
         <br> 
         <p>Rainy Weather
         <button id = "play1" class = "button" onclick = "playSound(1)">&#9658</button>
+        <input type="range" id="volume1" onchange = "changeVolume(1)">
         </p>
-   
         <audio loop id = "1" volume = "0.0">
             <source src = "assets/sounds/seattle/lightrain.wav">
             Your device cannot support the audio file. 
@@ -41,6 +41,7 @@
         <p>
         Cups Clinking
         <button id = "play2" class = "button" onclick = "playSound(2)">&#9658</button>
+        <input type="range" id="volume2" onchange = "changeVolume(2)">
         </p>
         <br>
         <audio id = "2" loop>
@@ -49,7 +50,7 @@
         <p>
             Conversation
             <button id = "play3" class = "button" onclick = "playSound(3)">&#9658</button>
-
+            <input type="range" id="volume3" onchange = "changeVolume(3)">
         </p>
         <audio loop id = "3">
             <source src = 'assets/sounds/seattle/talking.mp3'>

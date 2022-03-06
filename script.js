@@ -13,3 +13,12 @@ function playSound(audioID){
         button.innerHTML = "&#9658";
     }
 }
+
+function changeVolume(audioID){
+    let sound = document.getElementById(audioID);
+    let volume = document.getElementById("volume".concat(audioID));
+    let level = parseInt(volume.value);
+
+    sound.volume = level/100;
+
+}
