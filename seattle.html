@@ -28,8 +28,9 @@
 <div class = "container">
 <div class = "audioandimage">
     <div class = "audiobox">
-        <p>Rainy Weather
+        <p>
         <button id = "play1" class = "button" onclick = "playSound(1)">&#9658</button>
+        Rainy Weather
         <input type="range" id="volume1" onchange = "changeVolume(1)">
         </p>
         <audio loop id = "1" volume = "0.0">
@@ -37,16 +38,18 @@
             Your device cannot support the audio file. 
         </audio>
         <p>
-        Brewing Coffee
+        
         <button id = "play2" class = "button" onclick = "playSound(2)">&#9658</button>
+        Brewing Coffee
         <input type="range" id="volume2" onchange = "changeVolume(2)">
         </p>
         <audio id = "2" loop>
             <source src = 'assets/sounds/seattle/cafe.mp3'>
         </audio>
         <p>
-            Conversation
+            
             <button id = "play3" class = "button" onclick = "playSound(3)">&#9658</button>
+            Conversation
             <input type="range" id="volume3" onchange = "changeVolume(3)">
         </p>
         <audio loop id = "3">
