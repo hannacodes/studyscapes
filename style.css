@@ -38,6 +38,7 @@ body{
     display: block;
     margin-left: 2%;
     background-color: #E9EBCF;
+    min-width: 320px;
 }
 
 .centerbox {
@@ -83,11 +84,11 @@ body{
 .navbar {
     margin-top: 2vh;
     padding-bottom: 20px;
+    margin-bottom: 2vh;
 }
 .navbar li{
     display:inline;
     float:left; 
-    display: block;
     padding: 8px;
 }
 
@@ -107,11 +108,28 @@ body{
 }
 
 @media screen and (max-width: 800px) {
+    .navbar{
+        height: 80px;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .logo{
+        display: inline-block;
+        clear:left;
+        width: 90vw;
+        text-align: center;
+    }
     .container, .audioandimage{
         flex-direction: column;
     }
 
-    img{
+    .toptext{
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .imagebox img{
         max-width: 300%;
     }
 }
