@@ -28,26 +28,41 @@
 <div class = "container">
 <div class = "audioandimage">
     <div class = "audiobox">
-        <br> 
-        Birds and Wildlife
-        <br>
-        <audio loop controls>
-            <source src = 'assets/sounds/rain-long.wav'>
+            <p> 
+            Birds and Wildlife
+            <button id = "play1" class = "button" onclick = "playSound(1)">&#9658</button>
+                <input type="range" id="volume1" onchange = "changeVolume(1)"> 
+            </p>
+        <audio loop id = "1">
+            <source src = 'assets/sounds/yellowstone/birds.wav'>
             Your device cannot support the audio file. 
         </audio>
-        <br> 
-        Rustling of Leaves
-        <br>
-        <audio loop controls>
-            <source src = 'assets/sounds/rain-long.wav'>
+        <p> 
+            Walking through Leaves
+            <button id = "play2" class = "button" onclick = "playSound(2)">&#9658</button>
+                <input type="range" id="volume2" onchange = "changeVolume(2)"> 
+            </p>
+        <audio loop id="2">
+            <source src = 'assets/sounds/yellowstone/walking.wav'>
             Your device cannot support the audio file. 
         </audio>
-        <br>
-        Waterfall
-        <br>
+            <p> 
+            Waterfall
+            <button id = "play3" class = "button" onclick = "playSound(3)">&#9658</button>
+                <input type="range" id="volume3" onchange = "changeVolume(3)"> 
+            </p>
         <audio loop controls>
-            <source src = 'assets/sounds/rain-long.wav'>
+            <source src = 'assets/sounds/yellowstone/waterfall.wav'>
         </audio>
+        <p> 
+            Wind in the Leaves
+            <button id = "play4" class = "button" onclick = "playSound(4)">&#9658</button>
+            <input type="range" id="volume4" onchange = "changeVolume(4)"> 
+        </p>
+        <audio loop controls>
+            <source src = 'assets/sounds/yellowstone/wind.wav'>
+        </audio>
+
     </div>
     <div class ="imagebox">
         <img src = "assets/images/Hiking.gif" height = 600px>
