@@ -1,4 +1,6 @@
 # StudyScapes
+Study in locations all around the United States, with only your laptop!
+
 BrickHack 2022 Project - Visit the site [here!](http://studyscapes.tech)
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/hannacodes/studyscapes) ![GitHub repo size](https://img.shields.io/github/repo-size/hannacodes/studyscapes) ![Lines of code](https://img.shields.io/tokei/lines/github/hannacodes/studyscapes)
