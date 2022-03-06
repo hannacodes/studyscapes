@@ -26,3 +26,31 @@ function changeVolume(audioID){
     sound.volume = level/100;
 
 }
+
+function random(source){
+    let num = Math.floor(Math.random() * 6);
+    if(source == num && num != 5){
+        num = num + 1;
+    } else {
+        num = num - 1;
+    }
+    switch (num){
+        case 1:
+            location.href = "seattle.html";
+            break;
+        case 2:
+            location.href = "sandiego.html";
+            break;
+        case 3:
+            location.href = "yellowstone.html";
+            break;
+        case 4:
+            location.href = "nyc.html";
+            break;
+        case 5:
+            location.href = "rit.html";
+            break;
+    }
+
+
+}
