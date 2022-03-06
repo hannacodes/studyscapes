@@ -134,6 +134,7 @@ a:hover{
 
 
 button {
+    color:#000000;
     display: inline-block;
     border: none;
     margin: 0;
@@ -182,11 +183,20 @@ input[type = "range"]::-webkit-slider-thumb {
 
 @media screen and (max-width: 800px) {
     .navbar{
-        height: 80px;
+        text-align: center;
+        height: 40px;
     }
+
+    .centernav{
+        margin-left: 15vw;
+        width: 70vw;
+        margin-right: 15vw;
+    }
+
     .navbar li{
         display: inline-block;
     }
+
     .logo{
         display: inline-block;
         clear:left;
@@ -201,7 +211,9 @@ input[type = "range"]::-webkit-slider-thumb {
     .toptext{
         flex-direction: column;
         padding-top: 0;
-        margin-left: 5vw;
+        margin-left: 10vw;
+        max-width: 80vw;
+        text-align: center;
     }
 
     .imagebox img{
@@ -211,7 +223,7 @@ input[type = "range"]::-webkit-slider-thumb {
     
     .audiobox{
         max-width: 80vw;
-        margin-left:5vw;
+        margin-left:10vw;
     }
 
     .audiobox p{
@@ -228,4 +240,10 @@ input[type = "range"]::-webkit-slider-thumb {
         max-width: 90vw;
     }
     
+    .text{
+        font-size: 1em;
+        margin-left:5vw;
+        margin-right: 5vw;
+        max-width: 90vw;
+    }
 }
