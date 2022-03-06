@@ -28,12 +28,14 @@ function changeVolume(audioID){
 }
 
 function random(source){
-    let num = Math.floor(Math.random() * 6);
+    let num = Math.floor(Math.random() * 6) + 1;
+
     if(source == num && num != 5){
         num = num + 1;
-    } else {
+    } else if(num == source && num == 5){
         num = num - 1;
     }
+    
     switch (num){
         case 1:
             location.href = "seattle.html";
