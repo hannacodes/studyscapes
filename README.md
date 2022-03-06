@@ -1,5 +1,7 @@
 # StudyScapes
 BrickHack 2022 Project
+![AUR last modified](https://img.shields.io/aur/last-modified/studyscapes)
+
 ## Inspiration
 I was inspired by websites that aim to provide the ambient noises of certain spots that were closed during the pandemic. Even though things are reopening up again, I thought that it would be fun to create a website that tied these virtual locations to physical locations across the country. I was also inspired by my friend, who told me that sometimes, they aren't in the right mindset to leave their room, but they feel like they have to so that they can be productive. I attempted to bring outside to them via this project!
 
