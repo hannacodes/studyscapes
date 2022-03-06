@@ -86,9 +86,8 @@ body{
 }
 
 .imagebox{
-    flex:35%;
+    flex:45%;
     max-width: 35%;
-    max-height: 60%;
 }
 
 .imagebox img{
@@ -174,6 +173,7 @@ input[type = "range"]::-webkit-slider-thumb {
         width: 90vw;
         text-align: center;
     }
+
     .container, .audioandimage{
         flex-direction: column;
     }
@@ -181,21 +181,28 @@ input[type = "range"]::-webkit-slider-thumb {
     .toptext{
         flex-direction: column;
         padding-top: 0;
+        margin-left: 5vw;
     }
 
     .imagebox img{
         max-width: 300%;
+        height: auto;
     }
     
     .audiobox{
         max-width: 80vw;
         align-items: center;
+        text-align: center;
     }
 
     .audiobox p{
         flex: 100%;
     }
     
+    input[type = "range"] {
+        margin-left: 5vw;
+        width: 90%;
+    }
     
     
 }

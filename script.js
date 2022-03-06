@@ -1,3 +1,6 @@
+
+// This function actually controls when the sound plays. 
+// It also changes the buttons icon from play to pause and vice versa.
 function playSound(audioID){
     let sound = document.getElementById(audioID);
     let button = document.getElementById("play".concat(audioID));
@@ -14,6 +17,7 @@ function playSound(audioID){
     }
 }
 
+// This function changes the volume based on the values on the input range. 
 function changeVolume(audioID){
     let sound = document.getElementById(audioID);
     let volume = document.getElementById("volume".concat(audioID));
